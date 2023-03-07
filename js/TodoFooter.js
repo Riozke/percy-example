@@ -34,7 +34,7 @@ export default function TodoFooter({
 
       {completedCount > 0 ? (
         <button
-        style={{ fontWeight: 'bold' }}
+          style={{ fontWeight: 'inherit' }}
           className="clear-completed"
           onClick={onClearCompleted}>
           Clear completed
